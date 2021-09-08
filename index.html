@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts roboto for heading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google font open sans for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="dist/style.css" />
+
+    <!-- Web title -->
+    <title>RFLCTN</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header" class="header">
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="#">RFLCTN</a>
+        </div>
+
+        <!-- desktop nav -->
+        <div class="nav__links">
+          <a href="#film">Trailer</a><a href="#crew">Credits</a
+          ><a href="#about">About Us</a>
+        </div>
+
+        <!-- Hamburger menu for mobile -->
+        <a class="hamburger__button" href="#">
+          <span></span><span></span><span></span>
+        </a>
+      </nav>
+
+      <!-- mobile menu -->
+      <div class="mobile">
+        <div class="mobile__nav">
+          <a href="#film">Trailer</a><a href="#crew">Credits</a
+          ><a href="#about">About Us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <div data-aos="fade-in" data-aos-duration="1500">
+      <div class="hero">
+        <div class="hero__text">
+          <h2>Some Hero Heading</h2>
+          <h3>Some hero body</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Film description -->
+    <div id="film"></div>
+    <section class="film mt-xl">
+      <div data-aos="fade-in" data-aos-duration="1500">
+        <div class="film__desc">
+          <h1>Film Title</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            neque quas nobis debitis nihil incidunt, dolorum totam in non,
+            praesentium aliquid velit consectetur quidem esse asperiores
+            reprehenderit dolorem quam voluptates?
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="film__trailer mt-md">
+            <iframe
+              class="trailer__video"
+              src="https://www.youtube.com/embed/KSzQlwOfTk8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- crews and cast or talent-->
+    <div id="crew"></div>
+    <section class="credits mt-xl">
+      <div data-aos="fade-in" data-aos-duration="1500">
+        <!-- tab links -->
+        <div class="credits__tabs">
+          <a
+            href="javascript:void(0)"
+            id="cast__button"
+            class="credits__tabs__button"
+            >Cast</a
+          >
+          <a
+            href="javascript:void(0)"
+            id="crew__button"
+            class="credits__tabs__button"
+            >Crew</a
+          >
+        </div>
+        <!-- cast tab contents -->
+        <div id="cast__tab" class="tab__content">
+          <h1>Cast</h1>
+          <div class="credit__cards">
+            <div class="card">
+              <h3>Cast Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Cast Name</h4>
+            </div>
+            <div class="card">
+              <h3>Cast Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Cast Name</h4>
+            </div>
+            <div class="card">
+              <h3>Cast Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Cast Name</h4>
+            </div>
+            <div class="card">
+              <h3>Cast Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Cast Name</h4>
+            </div>
+            <div class="card">
+              <h3>Cast Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Cast Name</h4>
+            </div>
+            <div class="card">
+              <h3>Cast Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Cast Name</h4>
+            </div>
+          </div>
+        </div>
+        <!-- crew tab content -->
+        <div id="crew__tab" class="tab__content">
+          <h1>Crew</h1>
+          <div class="credit__cards">
+            <div class="card">
+              <h3>Crew Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Crew Name</h4>
+            </div>
+            <div class="card">
+              <h3>Crew Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Crew Name</h4>
+            </div>
+            <div class="card">
+              <h3>Crew Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Crew Name</h4>
+            </div>
+            <div class="card">
+              <h3>Crew Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Crew Name</h4>
+            </div>
+            <div class="card">
+              <h3>Crew Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Crew Name</h4>
+            </div>
+            <div class="card">
+              <h3>Crew Role</h3>
+              <div class="card__image">
+                <img src="images/blank-profile.png" alt="" />
+              </div>
+              <h4>Crew Name</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="crew" class="crew mt-xl">
+      <h1>Crews</h1>
+      <div class="crew__cards">
+        <div class="card">
+          <h3>Crew Role</h3>
+          <div class="card__image">
+            <img src="images/blank-profile.png" alt="" />
+          </div>
+          <h4>Crew Name</h4>
+        </div>
+        <div class="card">
+          <h3>Crew Role</h3>
+          <div class="card__image">
+            <img src="images/blank-profile.png" alt="" />
+          </div>
+          <h4>Crew Name</h4>
+        </div>
+        <div class="card">
+          <h3>Crew Role</h3>
+          <div class="card__image">
+            <img src="images/blank-profile.png" alt="" />
+          </div>
+          <h4>Crew Name</h4>
+        </div>
+        <div class="card">
+          <h3>Crew Role</h3>
+          <div class="card__image">
+            <img src="images/blank-profile.png" alt="" />
+          </div>
+          <h4>Crew Name</h4>
+        </div>
+        <div class="card">
+          <h3>Crew Role</h3>
+          <div class="card__image">
+            <img src="images/blank-profile.png" alt="" />
+          </div>
+          <h4>Crew Name</h4>
+        </div>
+        <div class="card">
+          <h3>Crew Role</h3>
+          <div class="card__image">
+            <img src="images/blank-profile.png" alt="" />
+          </div>
+          <h4>Crew Name</h4>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- about us -->
+    <div id="about"></div>
+    <section class="about mt-xl">
+      <div data-aos="fade-in" data-aos-duration="1500">
+        <h1>About Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          dolor blanditiis et perferendis asperiores adipisci, quasi modi
+          excepturi cupiditate! Ipsum repudiandae consequuntur eos! Nihil quidem
+          corporis autem velit saepe aliquam!
+        </p>
+      </div>
+    </section>
+
+    <!-- back to top -->
+    <div class="back mt-xl">
+      <div data-aos="fade-in" data-aos-duration="1500">
+        <a href="#"><i class="fas fa-arrow-up"></i> Back to top</a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer mt-xl">
+      <div class="footer__logo">
+        <a href="#">RFLCTN</a>
+        <p>Some slogan or motto goes here</p>
+      </div>
+
+      <div class="container">
+        <div class="footer__sitemap">
+          <a href="#film">Trailer</a><a href="#crew">Credits</a
+          ><a href="#about">About Us</a>
+        </div>
+        <div class="footer__connect">
+          <a href="https://www.instagram.com/reflection.ss/" target="_blank"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+        </div>
+      </div>
+
+      <div class="footer__copy">
+        <p><i class="far fa-copyright"></i> <span id="year"></span> RFLCTN</p>
+      </div>
+    </footer>
+
+    <script src="app/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
