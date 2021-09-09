@@ -48,7 +48,7 @@ a {
 }
 
 .mt-lg {
-  margin-top: 1.875;
+  margin-top: 1.875rem;
 }
 
 .mt-xl {
@@ -172,9 +172,9 @@ a {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/hero-image.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero-image.png");
-  height: 88vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/hero-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/hero-image.png");
+  height: 91vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -245,7 +245,7 @@ a {
   display: none;
   background-color: #000000;
   color: #ffffff;
-  padding: 1.875rem 1.875rem 0 1.875rem;
+  padding: 1.875rem 1.875rem 3.75rem 1.875rem;
 }
 
 .credits .tab__content .credit__cards {
@@ -257,6 +257,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .credits .tab__content .credit__cards .card {
@@ -267,18 +270,27 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 1.875rem 0;
+  margin: 1.875rem 1.875rem 0 1.875rem;
   padding: 0 1.875rem;
   color: #ffffff;
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  background-color: #ff38a9;
+  border-radius: 4px;
 }
 
 .credits .tab__content .credit__cards .card__image img {
   width: 6.25rem;
   height: auto;
   border-radius: 50%;
+  margin: 15px 0;
 }
 
 .about {
